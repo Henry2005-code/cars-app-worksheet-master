@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import './App.css';
 
 function Cars() {
@@ -60,7 +60,7 @@ function Cars() {
   
   }
 
-  const handleDelete = () => {
+  const handleDelete = (id) => {
 
     /**
      * When clicked on a delete button, get the id of the car's delete button clicked
