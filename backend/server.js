@@ -2,7 +2,7 @@
 /** Reference code: https://github.com/bpeddapudi/nodejs-basics-routes/blob/master/server.js 
  * import express */
 const express = require('express');
-const fs = require('fs');
+
 const cors = require('cors');
 const bodyParser = require('body-parser');
 const app = express();
